@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JeanStation : About us</title>
+        <link rel="StyleSheet" href="style/StyleSheet.css"/>
+        
+       <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+ 
+        <style>
+      #main_div{
+        width: 1366px;
+        min-height: 800px;
+       background: #EEE;
+      }
+      #contentdiv{
+          width: 1200px;
+          min-height:400px;
+        //  background: grey;
+          margin-left: 80px;
+          float: left;
+          margin-top: 131px;
+      }
+	  .container{
+	  background-color:#FFFFFF;
+		width:1200px;
+		height:300px;
+		float:left;
+		margin-top:50px;
+		box-shadow: 2px 9px 13px #808080;
+		border-radius: 7px;
+	  }
+  </style>
+
+    </head>
+    <body id="bdy">
+    <div id="main_div">
+        <div class="modal fade" id="help" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Help</h4>
+        </div>
+        <div class="modal-body">
+            <h4 style="color: #2DBFF5;">Why have I not received my order yet?</h4>
+            <p>In rare situations, orders may sometimes get delayed. We will keep you updated on the status of your orders. Log in to your account on our website/app to track your orders in the 'My Orders' section.</p>
+            <h4 style="color: #2DBFF5;">I have placed my order. Now what?</h4>
+            <p>Look forward to receiving your order! We will send you a confirmation email and SMS with your order details and estimated delivery dates. You can also log into your account on our website/app to track your orders in the 'My Orders' section.</p>
+            <h4 style="color: #2DBFF5;">How can I check the status of my order?</h4>
+            <p>You can easily check the status of your order by logging into your account on our website/app. Go to the 'My Orders' section and click on 'Track Order' to get the updated status of each item you have ordered.</p>
+            <h4 style="color: #2DBFF5;">Why has the tracking status not changed in many days?</h4>
+            <p>This may happen rarely, when there is a delay in receiving courier tracking updates. Don't worry, we work closely with the couriers to ensure your item will reach you as promised. If it has not been delivered to you by the promised date, please inform us in the 'Help section'. Click on 'View Help Center' and select 'Contact Customer Care'.</p>
+            <h4 style="color: #2DBFF5;">How do I know my order is confirmed?</h4>
+            <p>Once you place your order, we will send you a confirmation email and SMS with order details and estimated delivery dates. You can also log into your account on our website/app for the latest update on your order's status in the 'My Orders' section.</p>
+            <h4 style="color: #2DBFF5;">Both SD & courier websites have different delivery dates. Which is correct?</h4>
+            <p>We advise you to wait till the promised delivery date communicated by us. Your item will reach you by this date. To check the updated status of your order, please log into your account on Snapdeal and go to 'My Orders' section. In the unlikely event of any delay, we will inform you via email and SMS. You can also write to us in our 'Help' Section. Click on 'View Help Center' and write to us in 'Contact Customer Care'. We will look into your request at the earliest.</p>
+            <h3>Need more help</h3>
+            <h5>goto <a href="Contact_us.html">Contact Us</a></h5> or
+            <h5>Call +91-981-073-1540</h5>
+            
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+            <div id="head">
+                <div id="head1">
+                    <div id="live_div">
+                        <img src="images/live24x7.png" style="width:30px;height:30px;float:left;margin-top: 1px;" />
+                        <p style="color: white;margin-left:5px;float: left;font-size: 20px;margin-top: 4px;">24x7 live support</p>
+                        
+                    </div>
+                    <div id="ship_div">
+                        <img src="images/ship_icon.png" style="width:30px;height:30px;float:left;margin-top: 1px;" />
+                        <p style="color: white;margin-left:5px;float: left;font-size: 20px;margin-top: 3px;">Free shipping on order over 1000</p>
+                        
+                    </div>
+                    <div id="btn_div">
+                        <input id="login_btn" onclick="location.href='login.html'"  type="submit" value="Login"/>
+                        <input id="reg_btn" onclick="location.href='Register.html'"  type="submit" value="Register"/>
+                    </div>
+                </div>
+                
+                <div id="logo_div">
+                    <img src="images/logo.png" id="logo" />
+                </div>
+                <div id="searchbox_div">
+                     <form role="form" action="Search.jsp" method="get">
+                         <input type="text" name="keyword" id="searchbox"/>
+                    <button id="search_btn" type="submit">
+                        <img src="images/search_icon.png" style="width:30px;height:30px;" />
+                    </button>
+                    </form>
+                    
+                </div>
+                
+                <div id="head_all_btn">
+                    <div class="head_all_btn1">
+                        <button id="hbtn1" type="submit" data-toggle="modal" data-target="#help" style="border: 1px none #FFFFFF;background-color:#FFFFFF;width:78px;height:26px;">
+                            <img src="images/phone_logo.png" style="width:22px;height:22px;"/>
+                        </button>
+                        <p style="float:left;margin-left:23px;margin-top:2px;">Help</p>
+                        
+                    </div>
+                    <div class="head_all_btn1">
+                        <button id="hbtn2" type="submit" style="border: 1px none #FFFFFF;background-color:#FFFFFF;width:78px;height:26px;">
+                            <img src="images/user.png" style="width:22px;height:22px;"/>
+                        </button>
+                        <p style="float:left;margin-left:15px;margin-top:1px;">Account</p>
+                        
+                    </div>
+                    <div class="head_all_btn1">
+                        <button  id="hbtn3" type="submit" style="width:79px;height:28px;border: 1px none #FFFFFF;background-color:#FFFFFF;">
+                            <img src="images/shoppingcart.png" style="width:22px;height:22px;"/>
+                        </button>
+                      <p style="float:left;margin-left:24px;margin-top:1px;">Cart</p>
+                    </div>
+                    
+                </div>
+           
+            </div>
+    <div id="contentdiv">
+	<div id="containspace">
+	</div>
+	<div class="container">
+	<img src="images/logo.png" style="width:200px;height:40px;float:right;margin-top: 30px;"/>
+	<h1><b>About us:</b></h1>
+	
+	<br/>
+	
+	<h3> JeanStation was founded in Des Moines, Iowa, in 1991 as a retail store of casual clothes with denim playing the main part in the product range. By 1997, JeanStation became a leading brand in denim wears with outlets in 15 major cities including San Francisco, Los Angeles, Seattle, and Silicon Valley. By 2012, JeanStation opened more than 100 stores.
+	To keep pace with the changing scenarios of retail marketing, JeanStation have decided to implement an online shopping system, to automate the process of purchasing their products.</h3>
+		</div>
+    
+       
+    
+       
+      
+		</div>
+<div id="footerspace">
+</div>
+
+<div id="footer_div">
+<div class="footersection">
+<h3 style="margin-left:10px;color:#F97E76;">Pages</h3>
+<ul style="margin-left:15px;" class="list-group">
+<li><a style="color:white;font-size:18px;text-decoration: none;font-weight: initial;" href="about_us.html">About Us</a></li>
+<li><a style="color:white;font-size:18px;text-decoration: none;font-weight: initial;" href="Contact_us.html">Contact Us</a></li>
+<li><a style="color:white;font-size:18px;text-decoration: none;font-weight: initial;" href="login.html">Login</a></li>
+<li><a style="color:white;font-size:18px;text-decoration: none;font-weight: initial;" href="Register.html">Register</a></li>
+</ul>
+</div>
+<div class="footersection">
+<h3 style="margin-left:10px;color:#F97E76;">Connect with Us</h3>
+<ul style="margin-left:15px;" class="list-group">
+<li><a class="fa fa-facebook-f" style="color:white;font-size:20px;text-decoration: none;font-weight: initial;" href=""> Facebook</a></li>
+<li><a class="fa fa-google-plus" style="color:white;font-size:20px;text-decoration: none;font-weight: initial;" href=""> Google plus</a></li>
+<li><a class="fa fa-twitter" style="color:white;font-size:20px;text-decoration: none;font-weight: initial;" href=""> Twitter</a></li>
+<li><a class="fa fa-youtube-play" style="color:white;font-size:20px;text-decoration: none;font-weight: initial;" href=""> Youtube</a></li>
+</ul>
+
+
+</div>
+<div class="footersection">
+<h3 style="margin-left:10px;color:#F97E76;">Download Apps</h3>
+<ul style="margin-left:15px;" class="list-group">
+<li><a class="fa fa-android" style="color:white;font-size:22px;text-decoration: none;font-weight: initial;" href=""> Google Play</a></li>
+<li><a class="fa fa-apple" style="color:white;font-size:22px;text-decoration: none;font-weight: initial;" href=""> App Store</a></li>
+<li><a class="fa fa-windows" style="color:white;font-size:22px;text-decoration: none;font-weight: initial;" href=""> Windows Store</a></li> 
+</ul>
+
+</div>
+<div class="footerend">
+<img src="images/logo.png"  style="width:150px;height:40px;" />
+<p style="color:#ffffff;font-size:16px;">&copy; 2016 JeanStation, All Rights Reserved</p>
+</div>
+</div>
+</div>
+
+        
+    </body>
+</html>

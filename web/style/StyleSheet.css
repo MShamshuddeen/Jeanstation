@@ -1,0 +1,266 @@
+#bdy{
+	margin : 0px;
+	padding : 0px;
+	background : #EEE;
+}
+#main{
+	width : 1366px;
+	height : 2600px;
+	background : #EEE;
+}
+.accountdet{
+    background-color:#FFFFFF;
+    width:130px;
+    height: 100px;
+    z-index: 10;
+    margin-top: 30px;
+    display: none;
+    box-shadow: 2px -1px 34px #808080;
+}
+#head{
+	width : 1366px;
+	height : 130px;
+	background : #FFFFFF;
+	float: left;
+	float: left;
+	position: fixed;
+	box-shadow: 2px -1px 34px #808080;
+        z-index: 10;
+	
+}
+#head1{
+    background-color: #F97E76;
+    width: 1366px;
+    height: 40px;
+}
+#live_div{
+    width: 190px;
+    height: 35px;
+  
+    float: left;
+    margin-left: 90px;
+    margin-top: 2px;
+}
+#ship_div{
+    width: 400px;
+    height: 35px;
+
+    float: left;
+    margin-top: 2px;
+    margin-left: 8px;
+    
+}
+#btn_div{
+    width: 250px;
+    height: 35px;
+  
+    float: right;
+    margin-right: 106px;
+    margin-top: 2px;
+}
+#login_btn{
+    width: 100px;
+    height: 30px;
+    margin-top: 2px;
+    margin-left: 10px;
+    color:#FFFFFF;
+    background-color: #F97E76;
+    font-size: 16px;
+    border: 1px none #F97E76;
+}
+#login_btn:hover,#reg_btn:hover
+{
+border:2px solid white;
+border-radius:4px;
+
+}
+#reg_btn{
+    width: 100px;
+    height: 30px;
+    margin-top: 2px;
+    color: #FFFFFF;
+    background-color: #F97E76;
+    border: 1px none #F97E76;
+    font-size: 16px;
+}
+
+
+#logo_div{
+   
+    width: 200px;
+    height: 45px;
+    margin-left: 151px;
+    margin-top: 19px;
+    float:left;
+}
+#searchbox_div{
+ 
+   width: 470px;
+   height: 60px;
+   margin-top: 14px;
+   margin-left: 91px;
+   float: left;
+}
+#searchbox{
+    width: 380px;
+    height: 50px;
+    margin-left: 3px;
+    margin-top: 3px;
+    float:left;
+    font-size: 25px;
+    font-family: Courier New;
+}
+#search_btn{
+    width: 70px;
+    height: 50px;
+    margin-right: 17px;
+    float: right;
+    margin-top: 3px;
+    background: #2DBFF5;
+    border-radius: 1px;
+    border: medium none;
+    
+    
+}
+#head_all_btn{
+    
+    width: 300px;
+    height: 60px;
+    float: right;
+    margin-top: 14px;
+    margin-right: 89px;
+}
+.head_all_btn1{
+  
+    width: 80px;
+    height: 50px;
+    float: left;
+    margin-left: 4px;
+    margin-top: 4px;
+}
+.hbtn2:hover .accountdet{
+    display: block;
+}
+#content_div{
+	width: 1200px;
+	height : 2000px;
+
+	margin-left:80px;
+	float:left;
+	margin-top: 131px;
+	
+}
+#slider_div{
+	width:1200px;
+	height:350px;
+//	background: red;
+	margin-top:15px;
+	box-shadow: 2px 9px 13px #808080;
+	
+}
+#category_div{
+
+	width:1200px;
+	height:70px;
+	margin-top:40px; 
+        
+}
+#category_div1{
+    background-color: #2DBFF5;
+    width:253px;
+    height: 70px;
+    float:left;
+    box-shadow: 1px 4px 15px #808080;
+    
+}
+.category_btn_div{
+    background-color: #2DBFF5;
+    width: 170px;
+    height: 70px;
+    float: left;
+    margin-left: 6px;
+    box-shadow: 1px 4px 15px #808080;  
+}
+.new_arrival{
+
+	width:1200px;
+	height:330px;
+	margin-top:50px;
+}
+.catname{
+	width:1200px;
+	height:40px;
+
+}
+.prodjns{
+	width: 280px;
+	background-color:#FFFFFF;
+	height: 280px;
+	float:left;
+	margin-left:13px;
+	box-shadow: -1px 1px 3px 0px grey;
+	border-radius: 5px;
+	margin-top:5px;
+	
+}
+.proddet{
+
+	width:260px;
+	height:260px;
+	float:left;
+	margin-left:10px;
+	margin-top:10px;
+}
+.prodimg{
+
+	width:220px;
+	height:180px;
+	float:left;
+	margin-left:20px;
+	
+}
+.prodname{
+    
+	width:260px;
+	height:75px;
+	float:left;
+	margin-top:5px;
+	
+	
+}
+#footerspace{
+
+		width:1366px;
+		height:127px;
+		float:left;
+}
+#footer_div{
+	background:#38474E;
+	height:340px;
+	width:1366px;
+	float:left;
+	
+}
+.footersection{
+       
+	width:400px;
+	height:200px;
+	float:left;
+	margin-left:42px;
+	margin-top:20px;
+	
+}
+ul
+{
+    list-style-type: none;
+}
+.footerend{
+        
+	height:100px;
+	float:left;
+	width:1366px;
+	margin-top:5px;
+	text-align: center;
+	
+}
+
